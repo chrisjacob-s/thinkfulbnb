@@ -135,7 +135,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 1100px) {
+@media all and (min-width: 480px) {
   /* -------  General ------- */
 
   .group {
@@ -167,6 +167,20 @@ footer p {
   form div {
     width: 100%;
     flex-direction: column;
+  }
+  
+  /* ------- About ------- */ 
+
+  #about .group {
+    display: flex;
+    align-items: center;
+  }
+
+  /* ------- Host ------- */ 
+
+  #host .group {
+    display: flex;
+    align-items: center;
   }
 
 }
